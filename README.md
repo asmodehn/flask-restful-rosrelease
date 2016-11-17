@@ -23,3 +23,7 @@ Versions of tools used:
 
 # flask-restful-rosrelease
 Releasing https://github.com/flask-restful/flask-restful on ROS
+
+| Indigo | Jade | Kinetic |
+|:------:|:----:|:-------:|
+| [![Build Status](https://travis-ci.org/asmodehn/flask-restful-rosrelease.svg?branch=release%2Findigo%2Fflask_restful)](https://travis-ci.org/asmodehn/flask-restful-rosrelease)| [![Build Status](https://travis-ci.org/asmodehn/flask-restful-rosrelease.svg?branch=release%2Fjade%2Fflask_restful)](https://travis-ci.org/asmodehn/flask-restful-rosrelease) | [![Build Status](https://travis-ci.org/asmodehn/flask-restful-rosrelease.svg?branch=release%2Fkinetic%2Fflask_restful)](https://travis-ci.org/asmodehn/flask-restful-rosrelease)|
