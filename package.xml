@@ -25,6 +25,10 @@
   <depend>aniso8601</depend>
   <depend>python-tz</depend>
 
+  <test_depend>python-mock</test_depend>
+  <test_depend>python-blinker</test_depend>
+  <test_depend>python-crypto</test_depend>
+
   <export>
     <rosdoc external_url="http://flask-restful.readthedocs.io/" />
   </export>
