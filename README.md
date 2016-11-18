@@ -47,6 +47,13 @@ Versions of tools used:
 # flask-restful-rosrelease
 Releasing https://github.com/flask-restful/flask-restful on ROS
 
-| Indigo | Jade | Kinetic |
-|:------:|:----:|:-------:|
-| [![Build Status](https://travis-ci.org/asmodehn/flask-restful-rosrelease.svg?branch=release%2Findigo%2Fflask_restful)](https://travis-ci.org/asmodehn/flask-restful-rosrelease)| [![Build Status](https://travis-ci.org/asmodehn/flask-restful-rosrelease.svg?branch=release%2Fjade%2Fflask_restful)](https://travis-ci.org/asmodehn/flask-restful-rosrelease) | [![Build Status](https://travis-ci.org/asmodehn/flask-restful-rosrelease.svg?branch=release%2Fkinetic%2Fflask_restful)](https://travis-ci.org/asmodehn/flask-restful-rosrelease)|
+| Indigo | Jade |
+|:------:|:----:|
+| [![Build Status](https://travis-ci.org/asmodehn/flask-restful-rosrelease.svg?branch=release%2Findigo%2Fflask_restful)](https://travis-ci.org/asmodehn/flask-restful-rosrelease)| [![Build Status](https://travis-ci.org/asmodehn/flask-restful-rosrelease.svg?branch=release%2Fjade%2Fflask_restful)](https://travis-ci.org/asmodehn/flask-restful-rosrelease) |
+
+    test_accept_no_default_match_q0_not_acceptable(self):
+    """
+    q=0 should be considered NotAcceptable,
+    but this depends on werkzeug >= 1.0 which is not yet released
+    so this test is expected to fail until we depend on werkzeug >= 1.0
+    """
