@@ -1,0 +1,12 @@
+Source: ros-jade-flask-restful
+Section: misc
+Priority: extra
+Maintainer: AlexV <asmodehn@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python-blinker, python-crypto, python-flask (>= 0.10.1), python-mock, python-six (>= 1.5.2), python-tz, ros-jade-aniso8601, ros-jade-catkin (>= 0.6.18), ros-jade-catkin-pip (>= 0.2.0)
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-flask-restful
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-flask (>= 0.10.1), python-six (>= 1.5.2), python-tz, ros-jade-aniso8601
+Description: Simple framework for creating REST APIs http://flask-restful.readthedocs.io
