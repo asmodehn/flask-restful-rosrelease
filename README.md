@@ -1,3 +1,26 @@
+## flask_restful (jade) - 0.3.4-1
+
+The packages in the `flask_restful` repository were released into the `jade` distro by running `/usr/bin/bloom-release --rosdistro jade --track jade flask_restful` on `Thu, 23 Mar 2017 02:43:41 -0000`
+
+The `flask_restful` package was released.
+
+Version of package(s) in repository `flask_restful`:
+
+- upstream repository: https://github.com/flask-restful/flask-restful.git
+- release repository: https://github.com/asmodehn/flask-restful-rosrelease.git
+- rosdistro version: `0.3.4-0`
+- old version: `0.3.4-0`
+- new version: `0.3.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.5.25`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.1`
+- vcstools version: `0.1.39`
+
+
 ## flask_restful (indigo) - 0.3.4-2
 
 The packages in the `flask_restful` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo flask_restful` on `Fri, 18 Nov 2016 06:46:32 -0000`
