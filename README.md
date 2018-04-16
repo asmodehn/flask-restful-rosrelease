@@ -1,3 +1,26 @@
+## python-flask-restful (indigo) - 0.3.4-4
+
+The packages in the `python-flask-restful` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo python-flask-restful` on `Mon, 16 Apr 2018 05:20:27 -0000`
+
+The `python-flask-restful` package was released.
+
+Version of package(s) in repository `python-flask-restful`:
+
+- upstream repository: https://github.com/flask-restful/flask-restful.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.3.4-3`
+- new version: `0.3.4-4`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.1`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## flask_restful (indigo) - 0.3.4-3
 
 The packages in the `flask_restful` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo flask_restful` on `Fri, 24 Mar 2017 05:04:17 -0000`
